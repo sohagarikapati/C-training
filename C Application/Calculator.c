@@ -1,4 +1,11 @@
-/* Calculator using C code
+/* Calculator using C code to perform the following operations: 
+    1. Addition
+    2. Subtraction
+    3. Multiplication
+    4. Division
+    5. Modulus
+    6. Power of the number
+    7. Factorial*/
 
 #include<stdio.h>
 #include<conio.h>
@@ -17,11 +24,11 @@ void power();
 int factorial();
 void calculator_operations();
  
-// Start of Main Program
+//Main Program
 int main()
 {
     int X=1;
-    char Calc_oprn;
+    char Calc_oprtn;
  
     // Function call 
     calculator_operations();
@@ -33,7 +40,7 @@ int main()
  
         Calc_oprn=getche();
  
-        switch(Calc_oprn)
+        switch(Calc_oprtn)
         {
             case '+': addition();
                       break;

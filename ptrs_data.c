@@ -1,4 +1,5 @@
 //To create memory for the array at run time and assigning the values using pointers
+
 #include <stdio.h>
 #include <stdlib.h>
  

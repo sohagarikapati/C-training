@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
  
-int main()
+int ptrs_data()
 {
     int *arr;
     int limit,i;
